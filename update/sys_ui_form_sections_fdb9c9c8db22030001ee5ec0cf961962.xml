@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="fdb9c9c8db22030001ee5ec0cf961962" sys_domain="global" table="x_34314_wrkshp_reg_workshops" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 14:12:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9b9c10cdb22030001ee5ec0cf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_34314_wrkshp_reg_workshops" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="Default view">fdb9c9c8db22030001ee5ec0cf961962</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="Default view">1b954d08db22030001ee5ec0cf96192f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-15 14:12:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 14:12:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdb9c10cdb22030001ee5ec0cf9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_34314_wrkshp_reg_workshops" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="Default view">fdb9c9c8db22030001ee5ec0cf961962</sys_ui_form>
+            <sys_ui_section caption="Attendees" display_value="Attendees" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="Default view">f1b9c10cdb22030001ee5ec0cf9619f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-15 14:12:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_34314_wrkshp_reg_workshops</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 14:12:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdb9c9c8db22030001ee5ec0cf961962</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_34314_wrkshp_reg_workshops</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fdb9c9c8db22030001ee5ec0cf961962</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-15 14:12:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

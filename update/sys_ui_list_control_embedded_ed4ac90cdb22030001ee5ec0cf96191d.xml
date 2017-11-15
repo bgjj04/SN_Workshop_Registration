@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_list_control_embedded">
+    <sys_ui_list_control_embedded action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <empty_condition/>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_ref_qual_tag/>
+        <name>x_34314_wrkshp_reg_workshops</name>
+        <new_condition/>
+        <new_roles>admin</new_roles>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <related_list>x_34314_wrkshp_reg_workshop_attendees.workshop</related_list>
+        <sys_class_name>sys_ui_list_control_embedded</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-15 14:15:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed4ac90cdb22030001ee5ec0cf96191d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_34314_wrkshp_reg_workshops</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sys_ui_list_control_embedded_ed4ac90cdb22030001ee5ec0cf96191d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-15 14:17:37</sys_updated_on>
+    </sys_ui_list_control_embedded>
+</record_update>

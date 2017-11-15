@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Workshop Attendees" language="en" table="x_34314_wrkshp_reg_workshop_attendees">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Workshop Attendees</label>
+            <language>en</language>
+            <name>x_34314_wrkshp_reg_workshop_attendees</name>
+            <plural>Workshop Attendees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 14:01:18</sys_created_on>
+            <sys_id>18178188db22030001ee5ec0cf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Workshop Attendees</sys_name>
+            <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+            <sys_update_name>sys_documentation_x_34314_wrkshp_reg_workshop_attendees__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-15 14:01:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
