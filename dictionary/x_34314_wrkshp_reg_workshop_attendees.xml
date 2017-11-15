@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Workshop Attendees" max_length="40" name="x_34314_wrkshp_reg_workshop_attendees" type="collection">
+        <element label="Attended Workshop" max_length="40" name="attended_workshop" type="boolean"/>
         <element label="Attendee" max_length="32" name="attendee" reference="sys_user" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="50" name="number" read_only="true" type="string"/>
         <element label="Workshop" max_length="32" name="workshop" reference="x_34314_wrkshp_reg_workshops" type="reference"/>
         <index name="index">
             <element name="attendee"/>
