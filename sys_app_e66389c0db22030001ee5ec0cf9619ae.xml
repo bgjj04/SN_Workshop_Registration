@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <enforce_license>log</enforce_license>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_model>none</license_model>
+        <logo/>
+        <menu display_value="Workshop Registration">fe63cd84db22030001ee5ec0cf96192c</menu>
+        <name>Workshop Registration</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_34314_wrkshp_reg</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_34314_wrkshp_reg</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-15 13:45:23</sys_created_on>
+        <sys_id>e66389c0db22030001ee5ec0cf9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-15 13:45:23</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_34314_wrkshp_reg.user" name="x_34314_wrkshp_reg.user">3a63cd84db22030001ee5ec0cf96192f</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+</record_update>
