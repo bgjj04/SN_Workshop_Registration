@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_34314_wrkshp_reg.tomorrow_student_remi</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>tomorrow_student_reminder</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-16 04:27:33</sys_created_on>
+        <sys_id>2b3d8414dbe6030001ee5ec0cf961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_34314_wrkshp_reg.tomorrow_student_remi</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sysevent_register_2b3d8414dbe6030001ee5ec0cf961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 04:27:33</sys_updated_on>
+        <table>x_34314_wrkshp_reg_workshop_attendees</table>
+    </sysevent_register>
+</record_update>
