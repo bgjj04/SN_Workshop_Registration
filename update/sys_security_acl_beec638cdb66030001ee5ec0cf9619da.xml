@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_34314_wrkshp_reg_workshop_attendees.attended_workshop</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-16 02:05:56</sys_created_on>
+        <sys_id>beec638cdb66030001ee5ec0cf9619da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_34314_wrkshp_reg_workshop_attendees.attended_workshop</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sys_security_acl_beec638cdb66030001ee5ec0cf9619da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 02:05:56</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

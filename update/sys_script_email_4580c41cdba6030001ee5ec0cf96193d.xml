@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>WrkShpDeleted</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	
+	var wrkshp = event.parm2;
+	var wrkshp_gr = new GlideRecord('x_34314_wrkshp_reg_workshops');
+	wrkshp_gr.addQuery('sys_id',wrkshp);
+	wrkshp_gr.query();
+	
+	if (wrkshp_gr.next()){
+		template.print("<b>Workshop Name:</b> " + wrkshp_gr.workshop_name);
+		template.print("<br><b>Workshop Date:</b> " + wrkshp_gr.start_time);
+		template.print("<br><b>Workshop Number:</b> " + wrkshp_gr.number);
+	}
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-16 03:31:54</sys_created_on>
+        <sys_id>4580c41cdba6030001ee5ec0cf96193d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>WrkShpDeleted</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sys_script_email_4580c41cdba6030001ee5ec0cf96193d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 03:44:57</sys_updated_on>
+    </sys_script_email>
+</record_update>

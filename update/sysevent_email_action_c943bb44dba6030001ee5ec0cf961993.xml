@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_34314_wrkshp_reg_workshop_attendees</collection>
+        <condition table="x_34314_wrkshp_reg_workshop_attendees">attendeeISNOTEMPTY^EQ<item endquery="false" field="attendee" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>${attendee.first_name},</p>
+<p>This email confirms your registration for the following workshop:</p>
+<p>Workshop Name: ${workshop.workshop_name} (${workshop.number})</p>
+<p>Workshop Start Time: ${workshop.start_time}</p>
+<p>Workshop End Time: ${workshop.end_time}</p>
+<p>Workshop Location: ${workshop.location}</p>
+<p>Workshop Instructor(s): ${workshop.instructors}</p>
+<hr />
+<p>Your registration number is ${number}.</p>
+<p>If you need to unregister for this workshop, you may do so by deleting your registration at the following link: ${URI_REF}</p>
+<p>If you have any questions, feel free to email: nobody@domain.com</p>
+<p>Thanks!</p>
+<p>Training Team</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Attendee Added Notif to Attendee</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>attendee</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Workshop Registration Confirmation: ${workshop.workshop_name}  - (${workshop.start_time})</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-16 02:45:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c943bb44dba6030001ee5ec0cf961993</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Attendee Added Notif to Attendee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sysevent_email_action_c943bb44dba6030001ee5ec0cf961993</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 02:49:57</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

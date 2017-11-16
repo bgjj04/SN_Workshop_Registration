@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[    <h1 class="title topictitle1">System properties</h1>            <div class="body taskbody"><p class="shortdesc">Set the property values. Be cautious when changing the property values, as these        settings can greatly affect overall system performance.</p>        <ol class="ol steps" id="system_properties_ui-normal__s_CreateCredAndTest"><li class="li step">                <span class="ph cmd">Modify the fields in the form.</span>            </li><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">Save</span>.</span>            </li></ol>    </div>]]></content>
+        <last_sync>2017-11-15 18:01:06</last_sync>
+        <modifier>normal</modifier>
+        <name>system_properties_ui-normal</name>
+        <page>system_properties_ui</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-11-15 18:01:06</sys_created_on>
+        <sys_id>f0fdf9ccdba2030001ee5ec0cf96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>system_properties_ui-normal</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sys_embedded_help_content_f0fdf9ccdba2030001ee5ec0cf96199d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-11-15 18:01:06</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0fdf9ccdba2030001ee5ec0cf96199d"/>
+</record_update>
