@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame display_value="info_messages">69bca7bbef530000914304167b225647</frame>
+        <logged_on>false</logged_on>
+        <name>How to register</name>
+        <static_content><![CDATA[<p>To register for a workshop, click the workshop name, then click the &#34;Register for this Workshop&#34; button.</p>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-17 02:02:21</sys_created_on>
+        <sys_id>70953c28dbee030001ee5ec0cf96190f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>How to register</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>content_block_static_70953c28dbee030001ee5ec0cf96190f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-17 02:02:45</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=70953c28dbee030001ee5ec0cf96190f"/>
+</record_update>

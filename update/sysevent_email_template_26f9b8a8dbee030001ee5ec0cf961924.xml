@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_34314_wrkshp_reg_workshop_attendees</collection>
+        <email_layout/>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text><![CDATA[BEGIN:VCALENDAR
+PRODID:-//Service-now.com//Outlook 11.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VEVENT
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE:MAILTO:${to}
+ORGANIZER:MAILTO:${from}
+DTSTART:${dtstart}
+DTEND:${dtend}
+LOCATION:${workshop.location}
+TRANSP:OPAQUE
+SEQUENCE:${sys_mod_count}
+UID:${workshop.sys_id}
+DTSTAMP:${dtstamp}
+Description${workshop.description}
+SUMMARY:${workshop.workshop_name}
+PRIORITY:5
+X-ALT-DESC;FMTTYPE=text/html:${email_content}
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:TRUE
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR]]></message_text>
+        <name>Workshop Invitation</name>
+        <sms_alternate/>
+        <subject>Invitation to ${workshop.workshop_name} Workshop</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-17 02:21:05</sys_created_on>
+        <sys_id>26f9b8a8dbee030001ee5ec0cf961924</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Workshop Invitation</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sysevent_email_template_26f9b8a8dbee030001ee5ec0cf961924</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-17 03:04:47</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

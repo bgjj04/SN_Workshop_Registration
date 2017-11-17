@@ -6,20 +6,20 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_34314_wrkshp_reg_workshops</collection>
+        <collection>x_34314_wrkshp_reg_workshop_attendees</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Set Workshop URL</name>
+        <name>Workshop Attendee Start End Time</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -31,26 +31,25 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	current.link = current;
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-11-17 01:16:50</sys_created_on>
+        <sys_created_on>2017-11-17 02:55:55</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>372b2420dbee030001ee5ec0cf961972</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Set Workshop URL</sys_name>
+        <sys_id>bfd14920db22430001ee5ec0cf96194b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Workshop Attendee Start End Time</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
-        <sys_update_name>sys_script_372b2420dbee030001ee5ec0cf961972</sys_update_name>
+        <sys_update_name>sys_script_bfd14920db22430001ee5ec0cf96194b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-17 01:17:40</sys_updated_on>
-        <template/>
+        <sys_updated_on>2017-11-17 03:00:04</sys_updated_on>
+        <template>start_timeSAMEASworkshop.start_time^end_timeSAMEASworkshop.end_time^EQ</template>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=372b2420dbee030001ee5ec0cf961972"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bfd14920db22430001ee5ec0cf96194b"/>
 </record_update>
