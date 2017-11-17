@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA New Tab">81d06828dbae030001ee5ec0cf9619d9</canvas_page>
+        <name>Available Workshops</name>
+        <page display_value="PA Available Workshops">0dd06828dbae030001ee5ec0cf9619d8</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-17 00:31:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85d06828dbae030001ee5ec0cf9619db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Available Workshops</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>pa_tabs_85d06828dbae030001ee5ec0cf9619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-17 00:33:23</sys_updated_on>
+    </pa_tabs>
+</record_update>

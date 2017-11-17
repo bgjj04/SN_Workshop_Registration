@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>employee</sys_created_by>
+        <sys_created_on>2017-11-17 01:42:09</sys_created_on>
+        <sys_id>0c11b464dbee030001ee5ec0cf9619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.deleteRecord</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sys_scope_privilege_0c11b464dbee030001ee5ec0cf9619f1</sys_update_name>
+        <sys_updated_by>employee</sys_updated_by>
+        <sys_updated_on>2017-11-17 01:42:09</sys_updated_on>
+        <target_name>GlideRecord.deleteRecord</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

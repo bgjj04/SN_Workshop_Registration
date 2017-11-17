@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style>primary</form_style>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Register for this Workshop</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var gr = new GlideRecord('x_34314_wrkshp_reg_workshop_attendees');
+gr.addQuery('attendee',gs.getUserID());
+gr.addQuery('workshop',current.sys_id);
+gr.query();
+if (gr.next()){
+	//User already registered
+	action.setRedirectURL(current);
+	gs.addErrorMessage('You are already registered for this workshop');
+	
+}
+else{
+	gr.initialize(); 
+	gr.attendee = gs.getUserID(); 
+	gr.workshop = current.sys_id; 
+	gr.insert();
+	action.setRedirectURL(current);
+	gs.addInfoMessage('Successfully Registered.\n\nYou will receive a confirmation email shortly.');
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-17 00:13:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03cc5ca4dbae030001ee5ec0cf961937</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Register for this Workshop</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sys_ui_action_03cc5ca4dbae030001ee5ec0cf961937</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-17 00:26:03</sys_updated_on>
+        <table>x_34314_wrkshp_reg_workshops</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

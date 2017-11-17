@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">81d06828dbae030001ee5ec0cf9619d9</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2017-11-16 20:23:34">ccdc2060dbee030001ee5ec0cf961981</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-17 01:23:35</sys_created_on>
+        <sys_id>84dc2060dbee030001ee5ec0cf961983</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>81d06828dbae030001ee5ec0cf9619d9</sys_name>
+        <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_84dc2060dbee030001ee5ec0cf961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-17 01:25:01</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>
