@@ -19,7 +19,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>WrkShp - No Duplicate Attendees</name>
+        <name>WrkShp - No Duplicate and Check Max</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -37,6 +37,7 @@
 	var gr = new GlideRecord('x_34314_wrkshp_reg_workshop_attendees');
 	gr.addQuery('attendee',wrkusr);
 	gr.addQuery('workshop',wrknumber);
+	
 	gr.query();
 	
 	if(gr.next()){
@@ -47,6 +48,36 @@
 		current.setAbortAction(true);
 
 	}
+	else{
+		//Check for max attendees
+		var max = 0;
+		var workshop = new GlideRecord('x_34314_wrkshp_reg_workshops');
+		workshop.addQuery('sys_id',wrknumber);
+		workshop.query();
+		if (workshop.next()){
+			max = workshop.max_attendees;
+		}
+		var reg_count = 0;
+		var count = new GlideAggregate('x_34314_wrkshp_reg_workshop_attendees');
+		count.addQuery('workshop',wrknumber);
+		count.addAggregate('COUNT');
+		count.query();
+		if(count.next()){
+			reg_count = count.getAggregate('COUNT');
+		}
+		
+		if (reg_count >= max){
+			//Workshop full
+			gs.addErrorMessage('This workshop is already at max capacity. User was not registered.');
+			current.setAbortAction(true);
+		}
+		else{
+				gs.addInfoMessage('Successfully Registered.\n\nA confirmation email will be sent shortly.');
+		}
+
+		
+	}
+	
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -55,15 +86,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>22c52900dba2030001ee5ec0cf9619dd</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_name>WrkShp - No Duplicate Attendees</sys_name>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>WrkShp - No Duplicate and Check Max</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
         <sys_update_name>sys_script_22c52900dba2030001ee5ec0cf9619dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-15 16:57:23</sys_updated_on>
+        <sys_updated_on>2017-11-18 02:50:01</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

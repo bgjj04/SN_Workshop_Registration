@@ -5,13 +5,13 @@
             <element>attendee</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-15 14:36:09</sys_created_on>
-            <sys_id>2e0fc5ccdb22030001ee5ec0cf9619fb</sys_id>
+            <sys_created_on>2017-11-18 01:38:38</sys_created_on>
+            <sys_id>5ed93934db2a430001ee5ec0cf961930</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshop_attendees" sys_domain="global" view="Default view">71978148db22030001ee5ec0cf9619b9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-15 14:36:09</sys_updated_on>
+            <sys_updated_on>2017-11-18 01:38:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>workshop</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-15 14:36:09</sys_created_on>
-            <sys_id>ae0fc5ccdb22030001ee5ec0cf9619fb</sys_id>
+            <sys_created_on>2017-11-18 01:38:38</sys_created_on>
+            <sys_id>d2d93934db2a430001ee5ec0cf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshop_attendees" sys_domain="global" view="Default view">71978148db22030001ee5ec0cf9619b9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-15 14:36:09</sys_updated_on>
+            <sys_updated_on>2017-11-18 01:38:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>attended_workshop</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-15 14:36:09</sys_created_on>
-            <sys_id>220fc5ccdb22030001ee5ec0cf9619fc</sys_id>
+            <sys_created_on>2017-11-18 01:38:38</sys_created_on>
+            <sys_id>56d93934db2a430001ee5ec0cf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshop_attendees" sys_domain="global" view="Default view">71978148db22030001ee5ec0cf9619b9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-15 14:36:09</sys_updated_on>
+            <sys_updated_on>2017-11-18 01:38:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,41 +47,13 @@
             <element>number</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-15 14:38:11</sys_created_on>
-            <sys_id>dc8f0dccdb22030001ee5ec0cf96199b</sys_id>
+            <sys_created_on>2017-11-18 01:38:38</sys_created_on>
+            <sys_id>d6d93934db2a430001ee5ec0cf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshop_attendees" sys_domain="global" view="Default view">71978148db22030001ee5ec0cf9619b9</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-15 14:38:11</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>start_time</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-17 02:54:59</sys_created_on>
-            <sys_id>03b10520db22430001ee5ec0cf9619e8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshop_attendees" sys_domain="global" view="Default view">71978148db22030001ee5ec0cf9619b9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-17 02:54:59</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>end_time</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-17 02:55:21</sys_created_on>
-            <sys_id>9cd18520db22430001ee5ec0cf96199e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshop_attendees" sys_domain="global" view="Default view">71978148db22030001ee5ec0cf9619b9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-17 02:55:21</sys_updated_on>
+            <sys_updated_on>2017-11-18 01:38:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
