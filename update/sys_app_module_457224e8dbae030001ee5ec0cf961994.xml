@@ -8,16 +8,16 @@
         <device_type/>
         <filter/>
         <hint/>
-        <homepage/>
+        <homepage display_value="Workshops">e1b0a468dbae030001ee5ec0cf961980</homepage>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>HOMEPAGE</link_type>
         <map_page/>
         <mobile_title>Workshops Home</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
         <order>1</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>https://dev45640.service-now.com/$pa_dashboard.do?sysparm_dashboard=8dd06828dbae030001ee5ec0cf9619d7&amp;sysparm_tab=85d06828dbae030001ee5ec0cf9619db&amp;sysparm_cancelable=true&amp;sysparm_editable=undefined&amp;sysparm_active_panel=false&amp;sysparm_ignore_default_filter=false</query>
+        <query>https://dev45640.service-now.com/nav_to.do?uri=%2Fhome.do%3Fsysparm_userpref_homepage%3De1b0a468dbae030001ee5ec0cf961980</query>
         <report/>
         <roles/>
         <survey/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>457224e8dbae030001ee5ec0cf961994</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Workshops Home</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
         <sys_update_name>sys_app_module_457224e8dbae030001ee5ec0cf961994</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-17 00:48:11</sys_updated_on>
+        <sys_updated_on>2017-11-19 02:42:31</sys_updated_on>
         <timeline_page/>
         <title>Workshops Home</title>
         <uncancelable>false</uncancelable>
