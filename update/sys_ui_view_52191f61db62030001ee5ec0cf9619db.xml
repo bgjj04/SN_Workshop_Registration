@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-temp733688dcdba6030001ee5ec0cf9619ebrob.woodbyrne</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>rob.woodbyrne</sys_created_by>
+        <sys_created_on>2017-11-20 16:30:13</sys_created_on>
+        <sys_id>52191f61db62030001ee5ec0cf9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rob.woodbyrne</sys_updated_by>
+        <sys_updated_on>2017-11-20 16:30:13</sys_updated_on>
+        <title>Rpt-temp733688dcdba6030001ee5ec0cf9619ebrob.woodbyrne</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

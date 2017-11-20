@@ -6,39 +6,41 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_34314_wrkshp_reg_workshops">start_time&gt;=javascript:gs.beginningOfToday()^EQ<item endquery="false" field="start_time" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.beginningOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
-        <homepage display_value="Workshops">e1b0a468dbae030001ee5ec0cf961980</homepage>
+        <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Workshops Home</mobile_title>
+        <mobile_title>Workshop Registration</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>1</order>
+        <name>x_34314_wrkshp_reg_workshops</name>
+        <order>9</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>https://dev45640.service-now.com/home.do?sysparm_view=worshops</query>
+        <query/>
         <report/>
-        <roles>x_34314_wrkshp_reg.user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-11-17 00:38:51</sys_created_on>
+        <sys_created_on>2017-11-20 15:47:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>457224e8dbae030001ee5ec0cf961994</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Workshops Home</sys_name>
+        <sys_id>696f47a9db22030001ee5ec0cf9619d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Upcoming Workshops</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
-        <sys_update_name>sys_app_module_457224e8dbae030001ee5ec0cf961994</sys_update_name>
+        <sys_update_name>sys_app_module_696f47a9db22030001ee5ec0cf9619d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-20 16:00:13</sys_updated_on>
+        <sys_updated_on>2017-11-20 15:48:21</sys_updated_on>
         <timeline_page/>
-        <title>Workshops Home</title>
+        <title>Upcoming Workshops</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
