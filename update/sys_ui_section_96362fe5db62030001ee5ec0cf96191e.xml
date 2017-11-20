@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="96362fe5db62030001ee5ec0cf96191e" sys_domain="global" table="x_34314_wrkshp_reg_workshops" version="3" view="Mobile">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>2b462329db62030001ee5ec0cf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workshop_name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>ab462329db62030001ee5ec0cf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>2f462329db62030001ee5ec0cf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>max_attendees</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>af462329db62030001ee5ec0cf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>23462329db62030001ee5ec0cf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>a3462329db62030001ee5ec0cf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_time</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>27462329db62030001ee5ec0cf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_time</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>a7462329db62030001ee5ec0cf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>2b462329db62030001ee5ec0cf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>instructors</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>ab462329db62030001ee5ec0cf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:55</sys_created_on>
+            <sys_id>2f462329db62030001ee5ec0cf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_34314_wrkshp_reg_workshops" sys_domain="global" view="b0ad7151c501030033995e88a53e1b56">96362fe5db62030001ee5ec0cf96191e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:55</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_34314_wrkshp_reg_workshops</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-20 17:27:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96362fe5db62030001ee5ec0cf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_34314_wrkshp_reg_workshops</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
+            <sys_update_name>sys_ui_section_96362fe5db62030001ee5ec0cf96191e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-20 17:27:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Mobile" name="Mobile">b0ad7151c501030033995e88a53e1b56</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

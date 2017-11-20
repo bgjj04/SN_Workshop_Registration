@@ -2,47 +2,45 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Workshop Registration">fe63cd84db22030001ee5ec0cf96192c</application>
+        <application display_value="Self-Service">2ca1af7a0a0a0b58001e850528fbee73</application>
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_34314_wrkshp_reg_workshops">start_time&gt;=javascript:gs.beginningOfToday()^EQ<item endquery="false" field="start_time" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.beginningOfToday()"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <filter/>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>REPORT</link_type>
         <map_page/>
-        <mobile_title>Workshop Registration</mobile_title>
+        <mobile_title>My Upcoming Workshops (Student)</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_34314_wrkshp_reg_workshops</name>
-        <order>9</order>
+        <name>x_34314_wrkshp_reg_workshop_attendees</name>
+        <order>490</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>GROUPBYworkshop_name</query>
-        <report/>
+        <query/>
+        <report display_value="My Upcoming Workshops (Student)">733688dcdba6030001ee5ec0cf9619eb</report>
         <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-11-20 15:47:51</sys_created_on>
+        <sys_created_on>2017-11-20 17:20:03</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>696f47a9db22030001ee5ec0cf9619d6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Upcoming Workshops</sys_name>
+        <sys_id>d48423e5db62030001ee5ec0cf961945</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Upcoming Workshops (Student)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
-        <sys_update_name>sys_app_module_696f47a9db22030001ee5ec0cf9619d6</sys_update_name>
+        <sys_update_name>sys_app_module_d48423e5db62030001ee5ec0cf961945</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-20 16:56:46</sys_updated_on>
+        <sys_updated_on>2017-11-20 17:20:03</sys_updated_on>
         <timeline_page/>
-        <title>Upcoming Workshops</title>
+        <title>My Upcoming Workshops (Student)</title>
         <uncancelable>false</uncancelable>
-        <view_name/>
+        <view_name>Mobile</view_name>
         <window_name/>
     </sys_app_module>
 </record_update>

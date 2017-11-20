@@ -27,11 +27,7 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>This email confirms&nbsp;that you have been added as an instructor for the following workshop:</p>
-<p>Workshop Name: ${workshop_name} (${URI_REF})</p>
-<p>Workshop Start Time: ${start_time}</p>
-<p>Workshop End Time: ${end_time}</p>
-<p>Workshop Location: ${location}</p>
-<p>Workshop Instructor(s): ${instructors}</p>
+<p><strong>Workshop Name:</strong> ${workshop_name} (${URI_REF})<br /><strong>Workshop Start Time:</strong> ${start_time}<br /><strong>Workshop End Time:</strong> ${end_time}<br /><strong>Workshop Location:</strong> ${location}<br /><strong>Workshop Instructor(s):</strong> ${instructors}</p>
 <hr />
 <p>If you have any questions, feel free to email: nobody@domain.com</p>
 <p>Thanks!</p>
@@ -57,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4cc0c3e1db22030001ee5ec0cf96193e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Instructor Added Notif to Instructor</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
@@ -65,7 +61,7 @@
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
         <sys_update_name>sysevent_email_action_4cc0c3e1db22030001ee5ec0cf96193e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-20 14:52:53</sys_updated_on>
+        <sys_updated_on>2017-11-20 17:16:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
