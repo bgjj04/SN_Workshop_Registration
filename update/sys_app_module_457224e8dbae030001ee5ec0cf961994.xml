@@ -17,18 +17,16 @@
         <name/>
         <order>1</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>https://dev45640.service-now.com/home.do?sysparm_view=worshops</query>
+        <query>/home.do?sysparm_view=worshops</query>
         <report/>
         <roles>x_34314_wrkshp_reg.user</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-17 00:38:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>457224e8dbae030001ee5ec0cf961994</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Workshops Home</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
@@ -36,7 +34,7 @@
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
         <sys_update_name>sys_app_module_457224e8dbae030001ee5ec0cf961994</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-20 16:00:13</sys_updated_on>
+        <sys_updated_on>2018-08-10 14:41:26</sys_updated_on>
         <timeline_page/>
         <title>Workshops Home</title>
         <uncancelable>false</uncancelable>

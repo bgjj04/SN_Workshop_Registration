@@ -22,8 +22,6 @@
         <query>GROUPBYworkshop_name</query>
         <report/>
         <roles/>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-20 15:47:51</sys_created_on>

@@ -20,8 +20,6 @@
         <query/>
         <report/>
         <roles>x_34314_wrkshp_reg.user</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-15 14:01:18</sys_created_on>

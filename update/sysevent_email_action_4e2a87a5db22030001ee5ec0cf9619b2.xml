@@ -6,11 +6,21 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_34314_wrkshp_reg_workshops</collection>
         <condition/>
         <content_type>text/html</content_type>
+        <default_interval/>
         <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html/>
+        <digest_separator_text/>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>x_34314_wrkshp_reg.tomorrow_instructor_r</event_name>
         <event_parm_1>true</event_parm_1>
         <event_parm_2>false</event_parm_2>

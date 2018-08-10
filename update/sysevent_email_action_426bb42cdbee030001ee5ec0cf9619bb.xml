@@ -6,11 +6,21 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="IT Service Management">b69d02137f232200ee2e108c3ffa9142</category>
+        <category display_value="IT Service Management" name="IT Service Management">b69d02137f232200ee2e108c3ffa9142</category>
         <collection>x_34314_wrkshp_reg_workshop_attendees</collection>
         <condition/>
         <content_type>multipart/mixed</content_type>
+        <default_interval/>
         <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html/>
+        <digest_separator_text/>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>sn_change_cab.meeting.attendee.invite</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>

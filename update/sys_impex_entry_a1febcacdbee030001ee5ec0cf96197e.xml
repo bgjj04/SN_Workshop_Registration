@@ -3,7 +3,7 @@
     <sys_impex_entry action="INSERT_OR_UPDATE">
         <default_value/>
         <field>start_time</field>
-        <map display_value="icalendar.x_34314_wrkshp_reg_workshop_attendees">996e78acdbee030001ee5ec0cf9619d9</map>
+        <map display_value="icalendar.x_34314_wrkshp_reg_workshop_at">996e78acdbee030001ee5ec0cf9619d9</map>
         <mapped_field>start_time</mapped_field>
         <name>dtstart</name>
         <script/>
