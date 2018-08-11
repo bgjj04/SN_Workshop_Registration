@@ -2,7 +2,7 @@
 <database>
     <element label="Workshop Attendees" max_length="40" name="x_34314_wrkshp_reg_workshop_attendees" type="collection">
         <element label="Attended Workshop" max_length="40" name="attended_workshop" type="boolean"/>
-        <element label="Attendee" max_length="32" name="attendee" reference="sys_user" type="reference"/>
+        <element display="true" label="Attendee" max_length="32" name="attendee" reference="sys_user" type="reference"/>
         <element label="End time" max_length="40" name="end_time" type="glide_date_time"/>
         <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="50" name="number" read_only="true" type="string"/>
         <element label="Start time" max_length="40" name="start_time" type="glide_date_time"/>

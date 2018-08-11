@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
+        <action_name>workshop_register</action_name>
         <active>true</active>
         <client>false</client>
         <comments/>
@@ -51,17 +51,17 @@ else{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>03cc5ca4dbae030001ee5ec0cf961937</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Register for this Workshop</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
-        <sys_policy/>
+        <sys_policy>protected</sys_policy>
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
         <sys_update_name>sys_ui_action_03cc5ca4dbae030001ee5ec0cf961937</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-18 02:49:16</sys_updated_on>
+        <sys_updated_on>2018-08-11 20:08:10</sys_updated_on>
         <table>x_34314_wrkshp_reg_workshops</table>
         <ui11_compatible>true</ui11_compatible>
-        <ui16_compatible>false</ui16_compatible>
+        <ui16_compatible>true</ui16_compatible>
     </sys_ui_action>
 </record_update>
