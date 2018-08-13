@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>workshop</element>
-            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="e1cc1d164f3313000cea121f9310c752">32a70c90dbe6030001ee5ec0cf9619de</list_id>
+            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="17249c17db331300574d9444ca961972">32a70c90dbe6030001ee5ec0cf9619de</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>attendee</element>
-            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="e1cc1d164f3313000cea121f9310c752">32a70c90dbe6030001ee5ec0cf9619de</list_id>
+            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="17249c17db331300574d9444ca961972">32a70c90dbe6030001ee5ec0cf9619de</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>workshop.workshop_name</element>
-            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="e1cc1d164f3313000cea121f9310c752">32a70c90dbe6030001ee5ec0cf9619de</list_id>
+            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="17249c17db331300574d9444ca961972">32a70c90dbe6030001ee5ec0cf9619de</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>workshop.start_time</element>
-            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="e1cc1d164f3313000cea121f9310c752">32a70c90dbe6030001ee5ec0cf9619de</list_id>
+            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="17249c17db331300574d9444ca961972">32a70c90dbe6030001ee5ec0cf9619de</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>workshop.location</element>
-            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="e1cc1d164f3313000cea121f9310c752">32a70c90dbe6030001ee5ec0cf9619de</list_id>
+            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="17249c17db331300574d9444ca961972">32a70c90dbe6030001ee5ec0cf9619de</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>workshop.instructors</element>
-            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="e1cc1d164f3313000cea121f9310c752">32a70c90dbe6030001ee5ec0cf9619de</list_id>
+            <list_id display_value="x_34314_wrkshp_reg_workshop_attendees" element="NULL" name="x_34314_wrkshp_reg_workshop_attendees" parent="NULL" relationship="NULL" sys_domain="global" view="17249c17db331300574d9444ca961972">32a70c90dbe6030001ee5ec0cf9619de</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -116,7 +116,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-11-16 04:02:49</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt733688dcdba6030001ee5ec0cf9619eb" name="RPT733688dcdba6030001ee5ec0cf9619eb">e1cc1d164f3313000cea121f9310c752</view>
+            <view display_value="Rpt733688dcdba6030001ee5ec0cf9619eb" name="RPT733688dcdba6030001ee5ec0cf9619eb">17249c17db331300574d9444ca961972</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
