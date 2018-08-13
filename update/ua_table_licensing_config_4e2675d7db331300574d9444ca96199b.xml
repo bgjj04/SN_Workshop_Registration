@@ -13,13 +13,13 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-15 14:01:19</sys_created_on>
-        <sys_id>91241c17db331300574d9444ca96191f</sys_id>
+        <sys_id>4e2675d7db331300574d9444ca96199b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_34314_wrkshp_reg_workshop_attendees</sys_name>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
-        <sys_update_name>ua_table_licensing_config_91241c17db331300574d9444ca96191f</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_4e2675d7db331300574d9444ca96199b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-11-15 14:01:19</sys_updated_on>
     </ua_table_licensing_config>

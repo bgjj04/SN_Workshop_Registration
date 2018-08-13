@@ -54,7 +54,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-15 13:52:11</sys_created_on>
-        <sys_id>e1241c17db331300574d9444ca96192d</sys_id>
+        <sys_id>8e2675d7db331300574d9444ca9619a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Start Time</sys_name>
         <sys_package display_value="Workshop Registration" source="x_34314_wrkshp_reg">e66389c0db22030001ee5ec0cf9619ae</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Workshop Registration">e66389c0db22030001ee5ec0cf9619ae</sys_scope>
         <sys_update_name>sys_dictionary_x_34314_wrkshp_reg_workshops_start_time</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-13 12:08:47</sys_updated_on>
+        <sys_updated_on>2018-08-13 19:16:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
